@@ -16,8 +16,8 @@ Welcome to the **Guess the Number Game**, a fun and interactive game where you c
 ---
 
 ## 🛠️ **Technologies Used**
-- **HTML5:** Structuring the interface.  
-- **CSS3:** Styling the game for a visually appealing experience.  
+- **HTML:** Structuring the interface.  
+- **CSS:** Styling the game for a visually appealing experience.  
 - **JavaScript (ES6):** Game logic and interactivity.  
 
 ---
@@ -25,11 +25,11 @@ Welcome to the **Guess the Number Game**, a fun and interactive game where you c
 ## 🎮 **How to Play**
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/guess-the-number-game.git
+   git clone https://github.com/Saahi30/TEST12.git
    cd guess-the-number-game
    ```
 2. **Open the game:**
-   - Double-click the `index.html` file to launch the game in your browser.  
+   - Double-click the `gameindex.html` file to launch the game in your browser.  
 3. **Guess a number:**
    - Click on any number between `0` and `9`.  
    - Follow the hints provided until you guess correctly or run out of attempts!  
@@ -40,8 +40,8 @@ Welcome to the **Guess the Number Game**, a fun and interactive game where you c
 
 ## 🌈 **Customization**
 Want to make it your own? Here’s how:  
-- **Change Colors:** Update the `style.css` file for personalized themes.  
-- **Game Range:** Modify the random number range in the `index.js` file:  
+- **Change Colors:** Update the `gamecss.css` file for personalized themes.  
+- **Game Range:** Modify the random number range in the `gamejs.ts` file:  
   ```javascript
   let randomNum = Math.round(Math.random() * 20); // For a range of 0 to 20
   ```
@@ -52,9 +52,9 @@ Want to make it your own? Here’s how:
 ## 📂 **Folder Structure**
 ```
 guess-the-number-game/
-├── index.html      # Main HTML file
-├── style.css       # CSS for styling
-├── index.js        # JavaScript logic
+├── gameindex.html      # Main HTML file
+├── game.css       # CSS for styling
+├── gamejs.ts        # JavaScript logic
 └── README.md       # Game documentation (this file)
 ```
 
